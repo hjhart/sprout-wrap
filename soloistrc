@@ -10,6 +10,7 @@ recipes:
 - pivotal_workstation::remove_garageband
 - hjhart::notational_velocity
 - hjhart::spotify
+- hjhart::pdanet
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
