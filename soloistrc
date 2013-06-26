@@ -3,6 +3,11 @@ recipes:
 - meta::osx_development
 - meta::ruby_development
 - pivotal_workstation::git_projects
+- sprout-osx-apps::1password
+- sprout-osx-apps::caffeine
+- sprout-osx-apps::hub
+- sprout-osx-apps::skype
+- pivotal_workstation::remove_garageband
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
