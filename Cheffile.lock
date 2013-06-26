@@ -64,6 +64,14 @@ GIT
       sprout-osx-base (>= 0.0.0)
 
 PATH
+  remote: site-cookbooks/hjhart-osx-apps
+  specs:
+    hjhart (0.1.0)
+      pivotal_workstation (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+PATH
   remote: site-cookbooks/meta
   specs:
     meta (0.1.0)
@@ -72,6 +80,7 @@ PATH
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
+  hjhart (>= 0)
   meta (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)

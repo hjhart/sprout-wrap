@@ -8,6 +8,7 @@ recipes:
 - sprout-osx-apps::hub
 - sprout-osx-apps::skype
 - pivotal_workstation::remove_garageband
+- hjhart::notational_velocity
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
