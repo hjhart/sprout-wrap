@@ -3,6 +3,17 @@ recipes:
 - meta::osx_development
 - meta::ruby_development
 - pivotal_workstation::git_projects
+- sprout-osx-apps::1password
+- sprout-osx-apps::caffeine
+- sprout-osx-apps::hub
+- sprout-osx-apps::skype
+- pivotal_workstation::remove_garageband
+- sprout-osx-settings::remove_expose_keyboard_shortcuts
+- hjhart::notational_velocity
+- hjhart::spotify
+- hjhart::pdanet
+- hjhart::insomniax
+- sprout-osx-apps::phantomjs
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
@@ -13,6 +24,18 @@ node_attributes:
       name: Brian Cunnie
       shortname: cunnie
   git_projects:
-    -
-      - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
+  -
+    - sprout-wrap
+    - https://github.com/pivotal-sprout/sprout-wrap.git
+  -
+    - eggwich_marketing
+    - git@github.com:hjhart/eggwich_marketing
+  -
+    - eggwich_ios
+    - git@github.com:hjhart/eggwich_ios
+  -
+    - big_emoji
+    - git@github.com:hjhart/bigemoji.git
+  -
+    - gogaruco
+    - git@github.com:gogaruco/gogaruco.github.com.git
