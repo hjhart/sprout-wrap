@@ -77,6 +77,7 @@ PATH
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
+  hjhart (>= 0)
   meta (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)

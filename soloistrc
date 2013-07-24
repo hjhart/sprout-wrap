@@ -14,6 +14,7 @@ recipes:
 - hjhart::pdanet
 - hjhart::insomniax
 - sprout-osx-apps::phantomjs
+- hjhart::notational_velocity
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
