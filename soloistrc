@@ -2,12 +2,12 @@ recipes:
 - meta::osx_base
 - meta::osx_development
 - meta::ruby_development
-- pivotal_workstation::git_projects
+- sprout-osx-git::git_projects
 - sprout-osx-apps::1password
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::hub
 - sprout-osx-apps::skype
-- pivotal_workstation::remove_garageband
+- sprout-osx-settings::remove_garageband
 - sprout-osx-settings::remove_expose_keyboard_shortcuts
 - hjhart::notational_velocity
 - hjhart::spotify
@@ -15,6 +15,7 @@ recipes:
 - hjhart::insomniax
 - sprout-osx-apps::phantomjs
 - hjhart::notational_velocity
+- pivotal_workstation::vim_config
 node_attributes:
   git_pairs_domain: pivotallabs.com
   git_pairs_authors:
@@ -40,3 +41,10 @@ node_attributes:
   -
     - gogaruco
     - git@github.com:gogaruco/gogaruco.github.com.git
+  - 
+    - ruby-web
+    - git@github.com:wanelo/ruby-web.git
+  - 
+    - wanelo-chef
+    - git@github.com:wanelo/chef.git
+

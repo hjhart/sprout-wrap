@@ -5,26 +5,34 @@ cookbook 'meta',
 
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-base'
+  :path => 'sprout-osx-base',
+  :ref => 'mavericks'
 
 cookbook 'pivotal_workstation',
   :path => '../sprout/pivotal_workstation'
 
 cookbook 'sprout-osx-apps',
+  :path => '../sprout/sprout-osx-apps'
+
+cookbook 'sprout-osx-git',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-apps'
+  :path => 'sprout-osx-git',
+  :ref => 'mavericks'
 
 cookbook 'sprout-osx-settings',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-settings'
+  :path => 'sprout-osx-settings',
+  :ref => 'mavericks'
 
 cookbook 'sprout-pivotal',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-pivotal'
+  :path => 'sprout-pivotal',
+  :ref => 'mavericks'
 
 cookbook 'osx',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'osx'
+  :path => 'osx',
+  :ref => 'mavericks'
 
 cookbook 'hjhart',
   :path => 'site-cookbooks/hjhart-osx-apps'

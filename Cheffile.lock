@@ -1,52 +1,55 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (1.1.0)
+    dmg (2.0.8)
+    homebrew (1.5.2)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
-  ref: master
-  sha: 6e2c13cc9e8c7774d23ea3c76935c7eac963fb47
+  ref: mavericks
+  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
   specs:
     osx (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-apps
-  ref: master
-  sha: 6e2c13cc9e8c7774d23ea3c76935c7eac963fb47
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
-  ref: master
-  sha: 6e2c13cc9e8c7774d23ea3c76935c7eac963fb47
+  ref: mavericks
+  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
   specs:
     sprout-osx-base (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-git
+  ref: mavericks
+  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  specs:
+    sprout-osx-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-settings
-  ref: master
-  sha: 6e2c13cc9e8c7774d23ea3c76935c7eac963fb47
+  ref: mavericks
+  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
   specs:
     sprout-osx-settings (0.1.0)
+      homebrew (>= 0.0.0)
       osx (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-pivotal
-  ref: master
-  sha: 6e2c13cc9e8c7774d23ea3c76935c7eac963fb47
+  ref: mavericks
+  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
 PATH
@@ -54,11 +57,21 @@ PATH
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
       osx (>= 0.0.0)
       sprout-osx-apps (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
+
+PATH
+  remote: ../sprout/sprout-osx-apps
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
 
 PATH
   remote: site-cookbooks/hjhart-osx-apps
@@ -83,6 +96,7 @@ DEPENDENCIES
   pivotal_workstation (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
+  sprout-osx-git (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
 
