@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Access Timestamp</key>
+	<string>1384960653106</string>
+	<key>Hostname</key>
+	<string>playingbig.staging.wpengine.com</string>
+	<key>Nickname</key>
+	<string>Playing Big Staging</string>
+	<key>Port</key>
+	<string>22</string>
+	<key>Protocol</key>
+	<string>sftp</string>
+	<key>UUID</key>
+	<string>111e31c7-3624-4d7a-bb8a-e359add3a3ef</string>
+	<key>Username</key>
+	<string>playingbig-hjhart</string>
+</dict>
+</plist>

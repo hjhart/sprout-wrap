@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Access Timestamp</key>
+	<string>1380470817472</string>
+	<key>Hostname</key>
+	<string>george-read.dreamhost.com</string>
+	<key>Nickname</key>
+	<string>BHRSC DreamHost</string>
+	<key>Port</key>
+	<string>21</string>
+	<key>Protocol</key>
+	<string>ftp</string>
+	<key>UUID</key>
+	<string>4189a8dd-56a8-4fa6-a19f-75f1d5e21def</string>
+	<key>Username</key>
+	<string>bhrsc</string>
+	<key>Workdir</key>
+	<string>/</string>
+</dict>
+</plist>
