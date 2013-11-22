@@ -21,6 +21,7 @@ recipes:
 - sprout-osx-apps::homebrew_cask
 - hjhart::cyberduck
 - hjhart::arduino
+- sprout-osx-apps::caffeine
 node_attributes:
   git_projects:
   -
