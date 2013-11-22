@@ -21,6 +21,7 @@ recipes:
 - sprout-osx-apps::homebrew_cask
 - hjhart::cyberduck
 - hjhart::arduino
+#- hjhart::wunderlist # can add this as soon as https://github.com/phinze/homebrew-cask/pull/1831 gets accepted
 - sprout-osx-apps::caffeine
 node_attributes:
   git_projects:
