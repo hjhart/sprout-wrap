@@ -23,6 +23,7 @@ recipes:
 - hjhart::arduino
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-apps::heroku_toolbelt
 
 #- hjhart::wunderlist # can add this as soon as https://github.com/phinze/homebrew-cask/pull/1831 gets accepted
 
