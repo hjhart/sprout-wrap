@@ -17,14 +17,6 @@ recipes:
 - hjhart::notational_velocity
 - pivotal_workstation::vim_config
 node_attributes:
-  git_pairs_domain: pivotallabs.com
-  git_pairs_authors:
-    - initials: ah
-      name: Abhijit Hiremagalur
-      shortname: abhi
-    - initials: bc
-      name: Brian Cunnie
-      shortname: cunnie
   git_projects:
   -
     - sprout-wrap
@@ -47,4 +39,13 @@ node_attributes:
   - 
     - wanelo-chef
     - git@github.com:wanelo/chef.git
+  -
+    - lean_startup_13
+    - git@github.com:brianflanagan/LeanStartupConf13.git
+  -
+    - rsync_backup
+    - git@github.com:hjhart/rsync_backup.git
+  -
+    - ticket_tracker
+    - it@github.com:hjhart/ticket_tracker.git
 
