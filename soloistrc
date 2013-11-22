@@ -20,6 +20,7 @@ recipes:
 - pivotal_workstation::vim_config
 - sprout-osx-apps::homebrew_cask
 - hjhart::cyberduck
+- hjhart::arduino
 node_attributes:
   git_projects:
   -
