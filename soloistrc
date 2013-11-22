@@ -15,6 +15,7 @@ recipes:
 - hjhart::insomniax
 - sprout-osx-apps::phantomjs
 - hjhart::notational_velocity
+- hjhart::bash_it_aliases
 - pivotal_workstation::vim_config
 node_attributes:
   git_projects:
@@ -47,5 +48,5 @@ node_attributes:
     - git@github.com:hjhart/rsync_backup.git
   -
     - ticket_tracker
-    - it@github.com:hjhart/ticket_tracker.git
+    - git@github.com:hjhart/ticket_tracker.git
 

@@ -7,24 +7,36 @@ SITE
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
-  ref: mavericks
-  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
   specs:
     osx (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-apps
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
-  ref: mavericks
-  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
   specs:
     sprout-osx-base (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-git
-  ref: mavericks
-  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
   specs:
     sprout-osx-git (0.1.0)
       homebrew (>= 0.0.0)
@@ -33,8 +45,8 @@ GIT
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-settings
-  ref: mavericks
-  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -44,8 +56,8 @@ GIT
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-pivotal
-  ref: mavericks
-  sha: f82f9465ee4648c4ba9de8aacab271e147acdc9c
+  ref: master
+  sha: 17691330d5ac954bd9c97dd3e7816d126758fd6f
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
@@ -63,15 +75,6 @@ PATH
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
-
-PATH
-  remote: ../sprout/sprout-osx-apps
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
 
 PATH
   remote: site-cookbooks/hjhart-osx-apps
