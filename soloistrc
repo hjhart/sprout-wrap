@@ -17,9 +17,8 @@ recipes:
 - hjhart::notational_velocity
 - hjhart::bash_it_aliases
 - sprout-osx-apps::propane
-- pivotal_workstation::vim_config
 - sprout-osx-apps::homebrew_cask
-- hjhart::cyberduck
+#- hjhart::cyberduck
 - hjhart::arduino
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
