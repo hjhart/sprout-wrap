@@ -9,6 +9,11 @@ bookmarks = [
   "7479a3e1-0ecc-41d4-9639-af58c1b5c571.duck"
 ]
 
+directory cyberduck_bookmarks_directory do
+  recursive true
+  action :create
+end
+
 bookmarks.each do |bookmark_file|
   cookbook_file "#{cyberduck_bookmarks_directory}/#{bookmark_file}" do
     source bookmark_file
