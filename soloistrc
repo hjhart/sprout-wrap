@@ -25,6 +25,7 @@ recipes:
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-apps::heroku_toolbelt
 - hjhart::wunderlist
+#- hjhart::lightroom-3 wait until https://github.com/phinze/homebrew-cask/pull/1858 is accepted
 - pivotal_workstation::rvm
 
 node_attributes:
