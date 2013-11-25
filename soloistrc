@@ -59,4 +59,7 @@ node_attributes:
   -
     - smdp
     - git@github.com:hjhart/smdp.git
+  -
+    - scripts
+    - git@github.com:hjhart/scripts.git
 
