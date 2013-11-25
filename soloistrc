@@ -20,6 +20,7 @@ recipes:
 - sprout-osx-apps::homebrew_cask
 - hjhart::cyberduck
 - hjhart::arduino
+- hjhart::air_video_server
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-apps::heroku_toolbelt
