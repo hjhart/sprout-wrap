@@ -23,8 +23,8 @@ recipes:
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-apps::heroku_toolbelt
-
 - hjhart::wunderlist
+- pivotal_workstation::rvm
 
 node_attributes:
   keyboard_preferences:
