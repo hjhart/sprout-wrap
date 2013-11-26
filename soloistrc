@@ -63,4 +63,7 @@ node_attributes:
   -
     - scripts
     - git@github.com:hjhart/scripts.git
+  -
+    - tara_mohr
+    - git@github.com:hjhart/tara_mohr.git
 
