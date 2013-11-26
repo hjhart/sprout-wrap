@@ -12,18 +12,24 @@ Prepares a Mac running OS X Mountain Lion for Ruby development using [soloist](h
 
 ### 2. Install Command Line Tools
   
-  XCode > Preferences > Downloads
+	git
+
+Generate and add a ssh key to github
+
+	ssh-keygen
+
+### 3. Clone the project
   
-### 3. Clone this project
-  
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
-    cd sprout-wrap
+	mkdir workspace
+	git clone git@github.com:hjhart/sprout.git
+	git clone git@github.com:hjhart/sprout-wrap.git
   
 ### 4. Install soloist & and other required gems
 
-    sudo gem install bundler
-    bundle
+	sudo gem install bundler —pre
+	sudo bundle install
+	sudo gem update --system 1.8.25
 
 ### 5. Run soloist
   
-    bundle exec soloist
+	bundle exec soloist
