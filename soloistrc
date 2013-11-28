@@ -8,7 +8,6 @@ recipes:
 - sprout-osx-apps::hub
 - sprout-osx-apps::skype
 - sprout-osx-settings::remove_garageband
-- sprout-osx-settings::remove_expose_keyboard_shortcuts
 - hjhart::notational_velocity
 - hjhart::spotify
 - hjhart::pdanet
@@ -24,14 +23,13 @@ recipes:
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::rubymine
+- sprout-osx-apps::sizeup
 - hjhart::wunderlist
-#- hjhart::lightroom-3 wait until https://github.com/phinze/homebrew-cask/pull/1858 is accepted
+- hjhart::lightroom-3
 - pivotal_workstation::rvm
 
 node_attributes:
-  keyboard_preferences:
-    key_repeat_rate_lower_is_faster: 1
-    initial_repeat_delay_lower_is_shorter: 1
   git_projects:
   -
     - sprout-wrap
