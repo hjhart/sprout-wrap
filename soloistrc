@@ -16,6 +16,7 @@ recipes:
 - hjhart::bash_it_aliases
 - sprout-osx-apps::propane
 - sprout-osx-apps::homebrew_cask
+- pivotal_workstation::rbenv
 - hjhart::cyberduck
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
@@ -23,7 +24,7 @@ recipes:
 - sprout-osx-apps::rubymine
 - sprout-osx-apps::sizeup
 - hjhart::lightroom-3
-- hjhart::homebrew_cask_apps # PR: https://github.com/pivotal-sprout/sprout/pull/189
+- hjhart::homebrew_cask_apps # PR: https://github.com/pivotal-sprout/sprout/pull/189]
 
 node_attributes:
   brew_cask_applications:
@@ -68,4 +69,7 @@ node_attributes:
   -
     - tara_mohr
     - git@github.com:hjhart/tara_mohr.git
-
+  rbenv:
+    rubies:
+      2.0.0-p353: {}
+    default_ruby: 2.0.0-p353
