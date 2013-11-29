@@ -8,7 +8,8 @@ cookbook 'sprout-osx-base',
   :path => 'sprout-osx-base'
 
 cookbook 'pivotal_workstation',
-  :path => '../sprout/pivotal_workstation'
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'pivotal_workstation'
 
 cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',

@@ -27,7 +27,6 @@ recipes:
 - sprout-osx-apps::sizeup
 - hjhart::wunderlist
 - hjhart::lightroom-3
-- pivotal_workstation::rvm
 
 node_attributes:
   git_projects:
