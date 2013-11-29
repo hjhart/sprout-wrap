@@ -13,22 +13,27 @@ recipes:
 - hjhart::pdanet
 - hjhart::insomniax
 - sprout-osx-apps::phantomjs
-- hjhart::notational_velocity
 - hjhart::bash_it_aliases
 - sprout-osx-apps::propane
 - sprout-osx-apps::homebrew_cask
 - hjhart::cyberduck
-- hjhart::arduino
-- hjhart::air_video_server
 - sprout-osx-apps::caffeine
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::rubymine
 - sprout-osx-apps::sizeup
-- hjhart::wunderlist
 - hjhart::lightroom-3
+- hjhart::homebrew_cask_apps # PR: https://github.com/pivotal-sprout/sprout/pull/189
 
 node_attributes:
+  brew_cask_applications:
+  - limechat
+  - phpstorm
+  - wunderlist
+  - arduino
+  - air_video_server
+  - mamp
+  - gitx-rowanj
   git_projects:
   -
     - sprout-wrap
