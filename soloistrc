@@ -46,9 +46,6 @@ node_attributes:
     - eggwich_ios
     - git@github.com:hjhart/eggwich_ios
   -
-    - big_emoji
-    - git@github.com:hjhart/bigemoji.git
-  -
     - gogaruco
     - git@github.com:gogaruco/gogaruco.github.com.git
   -
