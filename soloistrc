@@ -24,17 +24,20 @@ recipes:
 - sprout-osx-apps::rubymine
 - sprout-osx-apps::sizeup
 - hjhart::lightroom-3
-- hjhart::homebrew_cask_apps # PR: https://github.com/pivotal-sprout/sprout/pull/189]
-
+- sprout-homebrew::default
 node_attributes:
-  brew_cask_applications:
-  - limechat
-  - phpstorm
-  - wunderlist
-  - arduino
-  - air_video_server
-  - mamp
-  - gitx-rowanj
+  sprout:
+    homebrew:
+      formulae:
+      - ghostscript
+      casks:
+      - limechat
+      - phpstorm
+      - wunderlist
+      - arduino
+      - air_video_server
+      - mamp
+      - gitx-rowanj
   git_projects:
   -
     - sprout-wrap

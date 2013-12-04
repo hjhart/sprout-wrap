@@ -30,5 +30,8 @@ cookbook 'osx',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'osx'
 
+cookbook 'sprout-homebrew',
+  :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
+
 cookbook 'hjhart',
   :path => 'site-cookbooks/hjhart-osx-apps'
