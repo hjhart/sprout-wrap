@@ -25,6 +25,7 @@ recipes:
 - sprout-osx-apps::sizeup
 - hjhart::lightroom-3
 - sprout-homebrew::default
+- sprout-osx-apps::chrome_canary
 node_attributes:
   sprout:
     homebrew:
