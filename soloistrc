@@ -48,6 +48,7 @@ recipes:
 - sprout-osx-apps::sizeup
 - sprout-osx-apps::chrome_canary
 - sprout-osx-settings::remove_garageband
+- sprout-osx-settings::remove_dock_icons
 
 - hjhart::notational_velocity
 - hjhart::spotify

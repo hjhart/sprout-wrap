@@ -14,6 +14,16 @@ GIT
       sprout-osx-base (>= 0.0.0)
 
 GIT
+  remote: git://github.com/hjhart/sprout.git
+  ref: remove_dock_icons_selectively
+  sha: 428bfa592d89d4f72740184190216b075e62c3fc
+  specs:
+    sprout-osx-settings (0.1.0)
+      homebrew (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
   ref: master
   sha: 4b7edc8977b44a89213a020c99364a41efa96a04
@@ -74,17 +84,6 @@ GIT
     rubymine (0.1.0)
       homebrew (>= 0.0.0)
       sprout-osx-apps (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-settings
-  ref: master
-  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
-  specs:
-    sprout-osx-settings (0.1.0)
-      homebrew (>= 0.0.0)
-      osx (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
 GIT

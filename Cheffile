@@ -16,9 +16,9 @@ cookbook 'sprout-osx-git', # Can change back when PR https://github.com/pivotal-
   :git => 'git://github.com/hjhart/sprout.git',
   :ref => 'git_config'
 
-cookbook 'sprout-osx-settings',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-settings'
+cookbook 'sprout-osx-settings', # Can change back when PR https://github.com/pivotal-sprout/sprout/pull/194 is merged
+  :git => 'git://github.com/hjhart/sprout.git',
+  :ref => 'remove_dock_icons_selectively'
 
 cookbook 'sprout-pivotal',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
