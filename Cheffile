@@ -7,8 +7,9 @@ cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-base'
 
-cookbook 'pivotal_workstation', # Switch back when https://github.com/pivotal-sprout/sprout/pull/190 is merged.
-  :path => '../sprout/pivotal_workstation'
+cookbook 'pivotal_workstation',   
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'pivotal_workstation'
 
 cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
