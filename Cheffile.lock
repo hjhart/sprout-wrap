@@ -43,19 +43,9 @@ GIT
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-git
-  ref: master
-  sha: b24d8a68d68afdcc9d40566d20c502615b21bae7
-  specs:
-    sprout-osx-git (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: b24d8a68d68afdcc9d40566d20c502615b21bae7
+  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -84,6 +74,13 @@ PATH
       sprout-osx-base (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
+
+PATH
+  remote: ../sprout/sprout-osx-git
+  specs:
+    sprout-osx-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
 
 PATH
   remote: site-cookbooks/hjhart-osx-apps

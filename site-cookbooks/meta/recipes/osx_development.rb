@@ -1,5 +1,5 @@
 include_recipe "sprout-osx-base::bash_it"
-include_recipe "pivotal_workstation::git_config_global_defaults"
+include_recipe "sprout-osx-git::config"
 include_recipe "sprout-osx-git::git_scripts"
 include_recipe "sprout-osx-settings::global_environment_variables"
 include_recipe "sprout-osx-base::homebrew"

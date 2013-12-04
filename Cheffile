@@ -14,9 +14,8 @@ cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-apps'
 
-cookbook 'sprout-osx-git',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-git'
+cookbook 'sprout-osx-git', # Can change back when PRhttps://github.com/pivotal-sprout/sprout/pull/191 is merged
+  :path => '../sprout/sprout-osx-git'
 
 cookbook 'sprout-osx-settings',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
