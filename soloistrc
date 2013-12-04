@@ -1,66 +1,65 @@
 recipes:
-#- meta::osx_base
 
-- pivotal_workstation::create_var_chef_cache
-- pivotal_workstation::sshd_on
-- sprout-osx-apps::skype
-- sprout-osx-apps::firefox
-- pivotal_workstation::inputrc
-- pivotal_workstation::locate_on
-- sprout-osx-apps::dropbox
-- sprout-osx-apps::chrome
-- sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-apps::menumeters
-- pivotal_workstation::bettertouchtool
-
-#- meta::osx_development
-
+# base (required by sprout)
 - sprout-osx-base::bash_it
-- sprout-osx-git::config
-- sprout-osx-git::git_scripts
-- sprout-osx-settings::global_environment_variables
+- pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::homebrew
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::textmate
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-- pivotal_workstation::unix_essentials
-- sprout-osx-apps::vagrant
-- sprout-osx-base::workspace_directory
-                 
-#- meta::ruby_development
 
+# settings
+- pivotal_workstation::sshd_on
+- pivotal_workstation::inputrc
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- pivotal_workstation::locate_on
+- sprout-osx-settings::global_environment_variables
+
+# development (general)
+- sprout-osx-base::workspace_directory
+- pivotal_workstation::unix_essentials
+- sprout-osx-git::git_projects
+- sprout-osx-git::config # PR 191
+- sprout-osx-git::git_scripts
+
+# development (rails) 
+- pivotal_workstation::rbenv  # TODO: Convert to sprout-osx-rbenv
 - pivotal_workstation::gem_setup
 - pivotal_workstation::postgres
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::node_js
 - sprout-osx-apps::qt
 
-- sprout-osx-git::git_projects
+# apps 
+- sprout-osx-apps::skype
+- sprout-osx-apps::firefox
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::chrome
+- sprout-osx-apps::iterm2
+- sprout-osx-apps::textmate
+- sprout-osx-apps::textmate_bundles
+- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::1password
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::hub
-- sprout-osx-apps::skype
+- sprout-osx-apps::phantomjs
+- sprout-osx-apps::propane
+- sprout-osx-apps::homebrew_cask
+- sprout-osx-apps::caffeine
+- sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::rubymine
+- sprout-osx-apps::sizeup
+- sprout-osx-apps::chrome_canary
 - sprout-osx-settings::remove_garageband
+
 - hjhart::notational_velocity
 - hjhart::spotify
 - hjhart::pdanet
 - hjhart::insomniax
-- sprout-osx-apps::phantomjs
 - hjhart::bash_it_aliases
-- sprout-osx-apps::propane
-- sprout-osx-apps::homebrew_cask
-- pivotal_workstation::rbenv
 - hjhart::cyberduck
-- sprout-osx-apps::caffeine
-- sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-apps::heroku_toolbelt
-- sprout-osx-apps::rubymine
-- sprout-osx-apps::sizeup
 - hjhart::lightroom-3
+
 - sprout-homebrew::default
-- sprout-osx-apps::chrome_canary
 - rubymine::preferences
+
 node_attributes:
   sprout:
     rubymine:
