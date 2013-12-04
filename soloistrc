@@ -26,8 +26,12 @@ recipes:
 - hjhart::lightroom-3
 - sprout-homebrew::default
 - sprout-osx-apps::chrome_canary
+- rubymine::preferences
 node_attributes:
   sprout:
+    rubymine:
+      preferences:
+        dir: /Users/hjhart/Library/Preferences/RubyMine60
     homebrew:
       formulae:
       - ghostscript
