@@ -5,6 +5,15 @@ SITE
     homebrew (1.5.2)
 
 GIT
+  remote: git://github.com/hjhart/sprout.git
+  ref: git_config
+  sha: 94baf23100852857e51623538f81eef3ec6bfc90
+  specs:
+    sprout-osx-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
   ref: master
   sha: 4b7edc8977b44a89213a020c99364a41efa96a04
@@ -86,13 +95,6 @@ GIT
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-PATH
-  remote: ../sprout/sprout-osx-git
-  specs:
-    sprout-osx-git (0.1.0)
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
