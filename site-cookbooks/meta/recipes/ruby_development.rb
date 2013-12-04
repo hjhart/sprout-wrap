@@ -1,5 +1,0 @@
-include_recipe "pivotal_workstation::gem_setup"
-include_recipe "pivotal_workstation::postgres"
-include_recipe "sprout-osx-apps::imagemagick"
-include_recipe "sprout-osx-apps::node_js"
-include_recipe "sprout-osx-apps::qt"

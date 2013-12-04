@@ -1,7 +1,41 @@
 recipes:
-- meta::osx_base
-- meta::osx_development
-- meta::ruby_development
+#- meta::osx_base
+
+- pivotal_workstation::create_var_chef_cache
+- pivotal_workstation::sshd_on
+- sprout-osx-apps::skype
+- sprout-osx-apps::firefox
+- pivotal_workstation::inputrc
+- pivotal_workstation::locate_on
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::chrome
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-apps::menumeters
+- pivotal_workstation::bettertouchtool
+
+#- meta::osx_development
+
+- sprout-osx-base::bash_it
+- sprout-osx-git::config
+- sprout-osx-git::git_scripts
+- sprout-osx-settings::global_environment_variables
+- sprout-osx-base::homebrew
+- sprout-osx-apps::iterm2
+- sprout-osx-apps::textmate
+- sprout-osx-apps::textmate_bundles
+- sprout-osx-apps::textmate_preferences
+- pivotal_workstation::unix_essentials
+- sprout-osx-apps::vagrant
+- sprout-osx-base::workspace_directory
+                 
+#- meta::ruby_development
+
+- pivotal_workstation::gem_setup
+- pivotal_workstation::postgres
+- sprout-osx-apps::imagemagick
+- sprout-osx-apps::node_js
+- sprout-osx-apps::qt
+
 - sprout-osx-git::git_projects
 - sprout-osx-apps::1password
 - sprout-osx-apps::caffeine
