@@ -18,6 +18,7 @@ recipes:
 - sprout-osx-git::git_projects
 - sprout-osx-git::config # PR 191
 - sprout-osx-git::git_scripts
+- pivotal_workstation::redis
 
 # development (rails) 
 - pivotal_workstation::rbenv  # TODO: Convert to sprout-osx-rbenv
@@ -69,6 +70,7 @@ node_attributes:
     homebrew:
       formulae:
       - ghostscript
+      - htop
       casks:
       - limechat
       - phpstorm
