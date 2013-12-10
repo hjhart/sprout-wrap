@@ -4,18 +4,19 @@ These todos represent the things I've run manually since running sprout-wrap on 
 
 - [ ] Add alternate remote repositories to certain directories
 
-    heroku git:remote -a lsc13
-    OR
-    git remote add heroku git@heroku.com:lsc13.git
+        heroku git:remote -a lsc13
+        OR
+        git remote add heroku git@heroku.com:lsc13.git
 
 - [ ] SSH Keys generated and added to heroku (or, use older keys)
 
-    ssh-keygen
-    heroku keys:add ~/.ssh/id_rsa.pub
+        ssh-keygen
+        heroku keys:add ~/.ssh/id_rsa.pub
 
 - [ ] Ruby environment set up ready to go, including bundle installs on specific directories
 
-    bundle install on lean_startup_13
+        cd ~/workspace/lean_startup_13
+        bundle install 
 
 - [ ] App Store Installations
   * Simplenote
