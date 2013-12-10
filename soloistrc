@@ -60,6 +60,7 @@ recipes:
 - hjhart-osx-apps::lightroom-3
 - hjhart-osx-settings::ssh_config
 - hjhart-osx-settings::disable_gatekeeper
+- hjhart-osx-settings::add_common_words_to_osx_dictionary
 
 - sprout-homebrew::default
 - rubymine::preferences
