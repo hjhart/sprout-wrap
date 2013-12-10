@@ -16,7 +16,7 @@ GIT
 GIT
   remote: git://github.com/hjhart/sprout.git
   ref: remove_dock_icons_selectively
-  sha: 428bfa592d89d4f72740184190216b075e62c3fc
+  sha: 6e2e4dbc467bec6262a23e65050faaa8440e8484
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
@@ -36,7 +36,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
-  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
+  sha: c8e30ec5f63589d2b5d469184471906d091fbab7
   specs:
     osx (0.1.0)
 
@@ -71,7 +71,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
+  sha: c8e30ec5f63589d2b5d469184471906d091fbab7
   specs:
     sprout-osx-base (0.1.0)
 
