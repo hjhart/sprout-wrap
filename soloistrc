@@ -59,6 +59,7 @@ recipes:
 - hjhart-osx-apps::cyberduck
 - hjhart-osx-apps::lightroom-3
 - hjhart-osx-settings::ssh_config
+- hjhart-osx-settings::disable_gatekeeper
 
 - sprout-homebrew::default
 - rubymine::preferences
