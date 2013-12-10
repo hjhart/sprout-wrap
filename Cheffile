@@ -35,6 +35,9 @@ cookbook 'rubymine',
 cookbook 'sprout-homebrew',
   :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
 
-cookbook 'hjhart',
+cookbook 'hjhart-osx-apps',
   :path => 'site-cookbooks/hjhart-osx-apps'
+
+cookbook 'hjhart-osx-settings',
+  :path => 'site-cookbooks/hjhart-osx-settings'
 

@@ -1,0 +1,13 @@
+# This file managed by Chef Soloist – see github.com/hjhart/sprout-wrap
+
+Host backup
+  HostName hjhart.dyndns.org
+  User root
+
+Host mini
+  HostName 192.168.1.100
+  User james
+
+Host home
+  HostName 50.0.204.149
+  User james

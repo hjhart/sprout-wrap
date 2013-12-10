@@ -51,13 +51,14 @@ recipes:
 - sprout-osx-settings::remove_garageband
 - sprout-osx-settings::dock_icons
 
-- hjhart::notational_velocity
-- hjhart::spotify
-- hjhart::pdanet
-- hjhart::insomniax
-- hjhart::bash_it_aliases
-- hjhart::cyberduck
-- hjhart::lightroom-3
+- hjhart-osx-apps::notational_velocity
+- hjhart-osx-apps::spotify
+- hjhart-osx-apps::pdanet
+- hjhart-osx-apps::insomniax
+- hjhart-osx-apps::bash_it_aliases
+- hjhart-osx-apps::cyberduck
+- hjhart-osx-apps::lightroom-3
+- hjhart-osx-settings::ssh_config
 
 - sprout-homebrew::default
 - rubymine::preferences
