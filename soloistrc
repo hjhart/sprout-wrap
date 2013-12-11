@@ -83,7 +83,7 @@ node_attributes:
       - air_video_server
       - mamp
       - transmission
-      # - send_to_kindle # Pending PR https://github.com/phinze/homebrew-cask/pull/2036
+      - send-to-kindle
   git_projects:
   -
     - sprout-wrap
