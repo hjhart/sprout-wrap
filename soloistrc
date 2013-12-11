@@ -41,6 +41,7 @@ recipes:
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::hub
 - sprout-osx-apps::phantomjs
+- sprout-osx-apps::gitx
 - sprout-osx-apps::propane
 - sprout-osx-apps::homebrew_cask
 - sprout-osx-apps::caffeine
@@ -81,7 +82,6 @@ node_attributes:
       - arduino
       - air_video_server
       - mamp
-      - gitx-rowanj
       - transmission
       # - send_to_kindle # Pending PR https://github.com/phinze/homebrew-cask/pull/2036
   git_projects:
