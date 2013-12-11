@@ -5,7 +5,7 @@ Host backup
   User root
 
 Host mini
-  HostName 192.168.1.100
+  HostName 192.168.42.100
   User james
 
 Host home
