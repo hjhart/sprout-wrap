@@ -37,3 +37,8 @@ These todos represent the things I've run manually since running sprout-wrap on 
     sudo spctl --master-disable
 
 - [ ] Install ventrilo # Not possible unless there is a proper mirror?
+
+- [ ] Set up automount for a NAS
+
+     http://useyourloaf.com/blog/2011/01/24/using-the-mac-os-x-automounter.html
+     http://hints.macworld.com/article.php?story=2001120201020569
