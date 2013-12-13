@@ -2,3 +2,7 @@ git
 homebrew
 heroku
 keygen
+venmo
+sidekiq
+redis
+psql
