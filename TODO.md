@@ -22,6 +22,7 @@ These todos represent the things I've run manually since running sprout-wrap on 
   * Simplenote
   * Pixelmator
   * Remote Desktop - VNC
+  * ByWord
 
 - [ ] Something needs to happen to sync my phone numbers to the “Messages” app.
 
