@@ -81,7 +81,6 @@ node_attributes:
       - wunderlist
       - arduino
       - air_video_server
-      - mamp
       - transmission
       - send-to-kindle
   git_projects:
