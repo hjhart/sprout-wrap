@@ -6,3 +6,4 @@ venmo
 sidekiq
 redis
 psql
+jquery
