@@ -70,7 +70,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: c8e30ec5f63589d2b5d469184471906d091fbab7
+  sha: 2baedb853f3516156365f73438c27a1f4c6d7059
   specs:
     sprout-osx-base (0.1.0)
 

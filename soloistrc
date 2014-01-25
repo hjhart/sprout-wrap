@@ -47,10 +47,10 @@ recipes:
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::rubymine
-- sprout-osx-apps::sizeup
 - sprout-osx-apps::chrome_canary
 - sprout-osx-settings::remove_garageband
 - sprout-osx-settings::dock_icons
+- sprout-osx-apps::shiftit
 
 - hjhart-osx-apps::notational_velocity
 - hjhart-osx-apps::spotify
