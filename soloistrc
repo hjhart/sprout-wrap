@@ -25,6 +25,7 @@ recipes:
 - pivotal_workstation::gem_setup
 - pivotal_workstation::postgres
 - sprout-osx-apps::imagemagick
+- sprout-osx-apps::macvim
 - sprout-osx-apps::node_js
 - sprout-osx-apps::qt
 
