@@ -6,15 +6,6 @@ SITE
 
 GIT
   remote: git://github.com/hjhart/sprout.git
-  ref: git_config
-  sha: 94baf23100852857e51623538f81eef3ec6bfc90
-  specs:
-    sprout-osx-git (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/hjhart/sprout.git
   ref: gitx_symlink
   sha: 8d763dc82df577cbbe7df9f6880e130190465e83
   specs:
@@ -45,7 +36,7 @@ GIT
   ref: master
   sha: 3c2c7e048e30af8a8b9a6ec240009ff7dbd09c2e
   specs:
-    osx-git (0.1.0)
+    sprout-osx-git (0.1.0)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
@@ -128,7 +119,6 @@ DEPENDENCIES
   hjhart-osx-apps (>= 0)
   hjhart-osx-settings (>= 0)
   osx (>= 0)
-  osx-git (>= 0)
   pivotal_workstation (>= 0)
   sprout-base (>= 0)
   sprout-homebrew (>= 0)
