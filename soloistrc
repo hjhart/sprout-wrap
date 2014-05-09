@@ -35,9 +35,6 @@ recipes:
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
 - sprout-osx-apps::iterm2
-- sprout-osx-apps::textmate
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::1password
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::hub
