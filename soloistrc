@@ -1,9 +1,9 @@
 recipes:
 
 # base (required by sprout)
-- sprout-osx-base::bash_it
+- sprout-base::bash_it
 - pivotal_workstation::create_var_chef_cache
-- sprout-osx-base::homebrew
+- sprout-base::homebrew
 
 # settings
 - pivotal_workstation::sshd_on
@@ -13,7 +13,7 @@ recipes:
 - sprout-osx-settings::global_environment_variables
 
 # development (general)
-- sprout-osx-base::workspace_directory
+- sprout-base::workspace_directory
 - pivotal_workstation::unix_essentials
 - sprout-osx-git::git_projects
 - sprout-osx-git::config # PR 191
@@ -47,7 +47,6 @@ recipes:
 - sprout-osx-apps::homebrew_cask
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::heroku_toolbelt
-- sprout-osx-apps::rubymine
 - sprout-osx-apps::chrome_canary
 - sprout-osx-settings::remove_garageband
 - sprout-osx-settings::dock_icons
@@ -65,13 +64,12 @@ recipes:
 - hjhart-osx-settings::add_common_words_to_osx_dictionary
 
 - sprout-homebrew::default
-- rubymine::preferences
+
+# rubymine
+- sprout-rubymine
 
 node_attributes:
   sprout:
-    rubymine:
-      preferences:
-        dir: /Users/hjhart/Library/Preferences/RubyMine60
     homebrew:
       formulae:
       - ghostscript

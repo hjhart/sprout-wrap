@@ -1,8 +1,10 @@
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'sprout-base',
+  :git => 'git://github.com/pivotal-sprout/sprout-base.git'
+
 cookbook 'sprout-osx-base',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-base'
+  :git => 'git://github.com/pivotal-sprout/sprout-base.git'
 
 cookbook 'pivotal_workstation',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
@@ -28,9 +30,8 @@ cookbook 'osx',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'osx'
 
-cookbook 'rubymine',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'sprout-osx-rubymine'
+cookbook 'sprout-rubymine',
+  :git => 'git://github.com/pivotal-sprout/sprout-rubymine.git'
 
 cookbook 'sprout-homebrew',
   :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
