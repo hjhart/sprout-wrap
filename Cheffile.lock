@@ -95,12 +95,12 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
+  sha: 41dd47dc3bb4007bf5ad5a63c2897ec41cf89dd5
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
       homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
+      sprout-base (>= 0.0.0)
 
 PATH
   remote: site-cookbooks/hjhart-osx-apps
