@@ -5,17 +5,6 @@ SITE
     homebrew (1.5.4)
 
 GIT
-  remote: git://github.com/hjhart/sprout.git
-  ref: gitx_symlink
-  sha: 8d763dc82df577cbbe7df9f6880e130190465e83
-  specs:
-    sprout-osx-apps (0.1.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
-
-GIT
   remote: git://github.com/influitive/sprout-homebrew.git
   ref: master
   sha: 2e3bb3a07ecc7e06fcae0466f33ca5746a62f1b0
@@ -97,7 +86,7 @@ GIT
   ref: master
   sha: 41dd47dc3bb4007bf5ad5a63c2897ec41cf89dd5
   specs:
-    osx-apps (0.1.0)
+    sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
@@ -131,7 +120,6 @@ DEPENDENCIES
   hjhart-osx-apps (>= 0)
   hjhart-osx-settings (>= 0)
   osx (>= 0)
-  osx-apps (>= 0)
   pivotal_workstation (>= 0)
   sprout-base (>= 0)
   sprout-homebrew (>= 0)
