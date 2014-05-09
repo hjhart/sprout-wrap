@@ -3,9 +3,6 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'sprout-base',
   :git => 'git://github.com/pivotal-sprout/sprout-base.git'
 
-cookbook 'sprout-osx-base',
-  :git => 'git://github.com/pivotal-sprout/sprout-base.git'
-
 cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-apps'

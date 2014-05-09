@@ -18,7 +18,6 @@ GIT
   sha: e2649562c9ca53944d80380b1d95beb9c61df60e
   specs:
     sprout-base (0.1.0)
-    sprout-osx-base (0.1.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout-git.git
@@ -125,7 +124,6 @@ DEPENDENCIES
   sprout-base (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)
-  sprout-osx-base (>= 0)
   sprout-osx-git (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
