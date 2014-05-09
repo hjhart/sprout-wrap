@@ -15,8 +15,8 @@ recipes:
 # development (general)
 - sprout-base::workspace_directory
 - pivotal_workstation::unix_essentials
-- sprout-osx-git::git_projects
-- sprout-osx-git::config # PR 191
+- sprout-osx-git::projects
+# - sprout-osx-git::config # PR 191
 - sprout-osx-git::git_scripts
 - sprout-redis
 
@@ -80,40 +80,41 @@ node_attributes:
       - air_video_server
       - transmission
       - send-to-kindle
-  git_projects:
-  -
-    - sprout-wrap
-    - https://github.com/pivotal-sprout/sprout-wrap.git
-  -
-    - eggwich_marketing
-    - git@github.com:hjhart/eggwich_marketing
-  -
-    - eggwich_ios
-    - git@github.com:hjhart/eggwich_ios
-  -
-    - gogaruco
-    - git@github.com:gogaruco/gogaruco.github.com.git
-  -
-    - lean_startup_13
-    - git@github.com:brianflanagan/LeanStartupConf13.git
-  -
-    - rsync_backup
-    - git@github.com:hjhart/rsync_backup.git
-  -
-    - ticket_tracker
-    - git@github.com:hjhart/ticket_tracker.git
-  -
-    - smdp
-    - git@github.com:hjhart/smdp.git
-  -
-    - scripts
-    - git@github.com:hjhart/scripts.git
-  -
-    - tara_mohr
-    - git@github.com:hjhart/tara_mohr.git
-  -
-    - bhrsc
-    - git@github.com:hjhart/bhrsc.git
+  git:
+    projects:
+      -
+        - sprout-wrap
+        - https://github.com/pivotal-sprout/sprout-wrap.git
+      -
+        - eggwich_marketing
+        - git@github.com:hjhart/eggwich_marketing
+      -
+        - eggwich_ios
+        - git@github.com:hjhart/eggwich_ios
+      -
+        - gogaruco
+        - git@github.com:gogaruco/gogaruco.github.com.git
+      -
+        - lean_startup_13
+        - git@github.com:brianflanagan/LeanStartupConf13.git
+      -
+        - rsync_backup
+        - git@github.com:hjhart/rsync_backup.git
+      -
+        - ticket_tracker
+        - git@github.com:hjhart/ticket_tracker.git
+      -
+        - smdp
+        - git@github.com:hjhart/smdp.git
+      -
+        - scripts
+        - git@github.com:hjhart/scripts.git
+      -
+        - tara_mohr
+        - git@github.com:hjhart/tara_mohr.git
+      -
+        - bhrsc
+        - git@github.com:hjhart/bhrsc.git
   rbenv:
     rubies:
       2.0.0-p353: {}

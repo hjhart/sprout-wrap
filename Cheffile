@@ -14,6 +14,10 @@ cookbook 'sprout-osx-apps', # Can change back when PR https://github.com/pivotal
   :git => 'git://github.com/hjhart/sprout.git',
   :ref => 'gitx_symlink'
 
+cookbook 'osx-apps',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'sprout-osx-apps'
+
 cookbook 'sprout-osx-git',
   :git => 'git://github.com/pivotal-sprout/sprout-git.git'
 
