@@ -25,20 +25,20 @@ GIT
       sprout-osx-settings (>= 0.0.0)
 
 GIT
+  remote: git://github.com/influitive/sprout-homebrew.git
+  ref: master
+  sha: 2e3bb3a07ecc7e06fcae0466f33ca5746a62f1b0
+  specs:
+    sprout-homebrew (0.1.0)
+      homebrew (~> 1.5.4)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout-base.git
   ref: master
   sha: e2649562c9ca53944d80380b1d95beb9c61df60e
   specs:
     sprout-base (0.1.0)
     sprout-osx-base (0.1.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout-homebrew.git
-  ref: master
-  sha: d9e32e8a3a5fca6be63632f357160eac6ff7d980
-  specs:
-    sprout-homebrew (0.1.0)
-      homebrew (~> 1.5.4)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout-osx-settings.git
