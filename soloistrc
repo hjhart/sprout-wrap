@@ -18,7 +18,7 @@ recipes:
 - sprout-osx-git::git_projects
 - sprout-osx-git::config # PR 191
 - sprout-osx-git::git_scripts
-- pivotal_workstation::redis
+- sprout-redis
 
 # development (rails) 
 - pivotal_workstation::rbenv  # TODO: Convert to sprout-osx-rbenv
@@ -49,7 +49,6 @@ recipes:
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::chrome_canary
 - sprout-osx-settings::remove_garageband
-- sprout-osx-settings::dock_icons
 - sprout-osx-apps::shiftit
 
 - hjhart-osx-apps::notational_velocity

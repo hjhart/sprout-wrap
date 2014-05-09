@@ -1,7 +1,7 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (2.0.8)
+    dmg (2.2.0)
     homebrew (1.5.4)
 
 GIT
@@ -45,11 +45,19 @@ GIT
 GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
   ref: master
-  sha: 4b7edc8977b44a89213a020c99364a41efa96a04
+  sha: d9e32e8a3a5fca6be63632f357160eac6ff7d980
   specs:
     sprout-homebrew (0.1.0)
+      homebrew (~> 1.5.4)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout-redis.git
+  ref: master
+  sha: abf6ae6f0bd1ae74159b68bff2a07bf923309467
+  specs:
+    sprout-redis (0.1.0)
       homebrew (>= 0.0.0)
-      sprout-osx-apps (>= 0.0.0)
+      sprout-base (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout-rubymine.git
@@ -64,7 +72,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
-  sha: c8e30ec5f63589d2b5d469184471906d091fbab7
+  sha: 41dd47dc3bb4007bf5ad5a63c2897ec41cf89dd5
   specs:
     osx (0.1.0)
 
@@ -119,5 +127,6 @@ DEPENDENCIES
   sprout-osx-git (>= 0)
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
+  sprout-redis (>= 0)
   sprout-rubymine (>= 0)
 
