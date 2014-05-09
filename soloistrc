@@ -2,27 +2,27 @@ recipes:
 
 # base (required by sprout)
 - sprout-base::bash_it
-- pivotal_workstation::create_var_chef_cache
+- sprout-base::var_chef_cache
 - sprout-base::homebrew
 
 # settings
-- pivotal_workstation::sshd_on
-- pivotal_workstation::inputrc
+- sprout-osx-settings::sshd_on
+- sprout-osx-settings::inputrc
 - sprout-osx-settings::defaults_fast_key_repeat_rate
-- pivotal_workstation::locate_on
+- sprout-osx-settings::locate_on
 - sprout-osx-settings::global_environment_variables
 
 # development (general)
 - sprout-base::workspace_directory
-- pivotal_workstation::unix_essentials
+- sprout-osx-apps::xquartz
+- sprout-osx-apps::ack
 - sprout-osx-git::projects
 # - sprout-osx-git::config # PR 191
 - sprout-osx-git::git_scripts
 - sprout-redis
 
 # development (rails) 
-- pivotal_workstation::rbenv  # TODO: Convert to sprout-osx-rbenv
-- pivotal_workstation::gem_setup
+- sprout-rbenv
 - sprout-postgresql
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::macvim
@@ -65,9 +65,17 @@ recipes:
 - sprout-rubymine
 
 node_attributes:
-  sprout:
+  rbenv:
+    rubies:
+      2.0.0-p353: {}
+    default_ruby: 2.0.0-p353
     homebrew:
       formulae:
+      - watch
+      - ssh-copy-id
+      - pstree
+      - tree
+      - wget
       - ghostscript
       - htop
       - cowsay
@@ -115,7 +123,3 @@ node_attributes:
       -
         - bhrsc
         - git@github.com:hjhart/bhrsc.git
-  rbenv:
-    rubies:
-      2.0.0-p353: {}
-    default_ruby: 2.0.0-p353

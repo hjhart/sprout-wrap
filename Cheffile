@@ -6,10 +6,6 @@ cookbook 'sprout-base',
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout-base.git'
 
-cookbook 'pivotal_workstation',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
-  :path => 'pivotal_workstation'
-
 cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-apps'
@@ -39,6 +35,9 @@ cookbook 'sprout-homebrew', # change back to pivotal-sprout version when https:/
 
 cookbook 'sprout-redis',
   :git => 'git://github.com/pivotal-sprout/sprout-redis.git'
+
+cookbook 'sprout-rbenv',
+  :git => 'git://github.com/pivotal-sprout/sprout-rbenv.git'
 
 cookbook 'hjhart-osx-apps',
   :path => 'site-cookbooks/hjhart-osx-apps'

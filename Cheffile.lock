@@ -49,6 +49,15 @@ GIT
       sprout-base (>= 0.0.0)
 
 GIT
+  remote: git://github.com/pivotal-sprout/sprout-rbenv.git
+  ref: master
+  sha: 1e2e99e9642762c9c5e7e99a0fecabeba655c8ef
+  specs:
+    sprout-rbenv (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout-redis.git
   ref: master
   sha: abf6ae6f0bd1ae74159b68bff2a07bf923309467
@@ -73,21 +82,6 @@ GIT
   sha: 41dd47dc3bb4007bf5ad5a63c2897ec41cf89dd5
   specs:
     osx (0.1.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: pivotal_workstation
-  ref: master
-  sha: 31b6b51704ea05b897c6932f684a763cb7eb1255
-  specs:
-    pivotal_workstation (1.0.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 0.0.0)
-      osx (>= 0.0.0)
-      sprout-osx-apps (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
-      sprout-pivotal (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
@@ -116,7 +110,6 @@ PATH
   remote: site-cookbooks/hjhart-osx-apps
   specs:
     hjhart-osx-apps (0.1.0)
-      pivotal_workstation (>= 0.0.0)
       sprout-osx-apps (>= 0.0.0)
       sprout-osx-settings (>= 0.0.0)
 
@@ -129,7 +122,6 @@ DEPENDENCIES
   hjhart-osx-apps (>= 0)
   hjhart-osx-settings (>= 0)
   osx (>= 0)
-  pivotal_workstation (>= 0)
   sprout-base (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)
@@ -138,6 +130,7 @@ DEPENDENCIES
   sprout-osx-settings (>= 0)
   sprout-pivotal (>= 0)
   sprout-postgresql (>= 0)
+  sprout-rbenv (>= 0)
   sprout-redis (>= 0)
   sprout-rubymine (>= 0)
 
