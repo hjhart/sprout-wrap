@@ -41,6 +41,15 @@ GIT
     sprout-osx-base (0.1.0)
 
 GIT
+  remote: git://github.com/pivotal-sprout/sprout-git.git
+  ref: master
+  sha: 3c2c7e048e30af8a8b9a6ec240009ff7dbd09c2e
+  specs:
+    osx-git (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout-osx-settings.git
   ref: master
   sha: 342fa674efa39034d37e9ada83d9c18b46a772e8
@@ -119,6 +128,7 @@ DEPENDENCIES
   hjhart-osx-apps (>= 0)
   hjhart-osx-settings (>= 0)
   osx (>= 0)
+  osx-git (>= 0)
   pivotal_workstation (>= 0)
   sprout-base (>= 0)
   sprout-homebrew (>= 0)
