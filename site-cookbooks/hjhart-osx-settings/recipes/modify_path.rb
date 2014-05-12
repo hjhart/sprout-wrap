@@ -1,0 +1,1 @@
+sprout_base_bash_it_custom_plugin 'modify_path.bash'

@@ -54,6 +54,7 @@ recipes:
 - hjhart-osx-settings::ssh_config
 - hjhart-osx-settings::disable_gatekeeper
 - hjhart-osx-settings::add_common_words_to_osx_dictionary
+- hjhart-osx-settings::modify_path
 
 - sprout-homebrew::default
 
