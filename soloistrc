@@ -6,11 +6,7 @@ recipes:
 - sprout-base::homebrew
 
 # settings
-- sprout-osx-settings::sshd_on
-- sprout-osx-settings::inputrc
-- sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-settings::locate_on
-- sprout-osx-settings::global_environment_variables
+- sprout-osx-settings
 
 # development (general)
 - sprout-base::workspace_directory
