@@ -1,7 +1,7 @@
 # This file managed by Chef Soloist – see github.com/hjhart/sprout-wrap
 
 Host backup
-  HostName hjhart.dyndns.org
+  HostName hjhart.synology.me
   User root
 
 Host mini
@@ -9,5 +9,5 @@ Host mini
   User james
 
 Host home
-  HostName 50.0.204.149
+  HostName movies.hjhart.com
   User james

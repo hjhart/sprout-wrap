@@ -37,7 +37,6 @@ recipes:
 - sprout-osx-apps::phantomjs
 - sprout-osx-apps::gitx
 - sprout-osx-apps::propane
-- sprout-osx-apps::homebrew_cask
 - sprout-osx-apps::caffeine
 - sprout-osx-apps::heroku_toolbelt
 - sprout-osx-apps::chrome_canary
